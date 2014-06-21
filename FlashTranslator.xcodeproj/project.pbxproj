@@ -22,7 +22,6 @@
 		3D761D101952243100704214 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D761D0E1952243100704214 /* InfoPlist.strings */; };
 		3D761D121952243100704214 /* FlashTranslatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D761D111952243100704214 /* FlashTranslatorTests.m */; };
 		3DA5F4FA1953368D002547FC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA5F4F91953368D002547FC /* AVFoundation.framework */; };
-		3DA5F4FE19551A94002547FC /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA5F4FD19551A94002547FC /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 		3D761D0F1952243100704214 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D761D111952243100704214 /* FlashTranslatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashTranslatorTests.m; sourceTree = "<group>"; };
 		3DA5F4F91953368D002547FC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		3DA5F4FD19551A94002547FC /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View.xib; path = FlashTranslator/View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 		3D761CDA1952243000704214 = {
 			isa = PBXGroup;
 			children = (
-				3DA5F4FD19551A94002547FC /* View.xib */,
 				3D761CEC1952243000704214 /* FlashTranslator */,
 				3D761D0B1952243100704214 /* FlashTranslatorTests */,
 				3D761CE51952243000704214 /* Frameworks */,
@@ -236,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA5F4FE19551A94002547FC /* View.xib in Resources */,
 				3D761CFF1952243000704214 /* Images.xcassets in Resources */,
 				3D761CF11952243000704214 /* InfoPlist.strings in Resources */,
 				3D761CFA1952243000704214 /* Main.storyboard in Resources */,
