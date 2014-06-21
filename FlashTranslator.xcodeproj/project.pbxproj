@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D761CE71952243000704214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D761CE61952243000704214 /* Foundation.framework */; };
+		3D761CE91952243000704214 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D761CE81952243000704214 /* CoreGraphics.framework */; };
+		3D761CEB1952243000704214 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D761CEA1952243000704214 /* UIKit.framework */; };
+		3D761CF11952243000704214 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D761CEF1952243000704214 /* InfoPlist.strings */; };
+		3D761CF31952243000704214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D761CF21952243000704214 /* main.m */; };
+		3D761CF71952243000704214 /* DHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D761CF61952243000704214 /* DHAppDelegate.m */; };
+		3D761CFA1952243000704214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D761CF81952243000704214 /* Main.storyboard */; };
+		3D761CFD1952243000704214 /* DHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D761CFC1952243000704214 /* DHViewController.m */; };
+		3D761CFF1952243000704214 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D761CFE1952243000704214 /* Images.xcassets */; };
+		3D761D061952243100704214 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D761D051952243100704214 /* XCTest.framework */; };
+		3D761D071952243100704214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D761CE61952243000704214 /* Foundation.framework */; };
+		3D761D081952243100704214 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D761CEA1952243000704214 /* UIKit.framework */; };
+		3D761D101952243100704214 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D761D0E1952243100704214 /* InfoPlist.strings */; };
+		3D761D121952243100704214 /* FlashTranslatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D761D111952243100704214 /* FlashTranslatorTests.m */; };
+		3DA5F4FA1953368D002547FC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA5F4F91953368D002547FC /* AVFoundation.framework */; };
+		3DA5F4FE19551A94002547FC /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA5F4FD19551A94002547FC /* View.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D761D091952243100704214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D761CDB1952243000704214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D761CE21952243000704214;
+			remoteInfo = FlashTranslator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D761CE31952243000704214 /* FlashTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D761CE61952243000704214 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D761CE81952243000704214 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D761CEA1952243000704214 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D761CEE1952243000704214 /* FlashTranslator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashTranslator-Info.plist"; sourceTree = "<group>"; };
+		3D761CF01952243000704214 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D761CF21952243000704214 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D761CF41952243000704214 /* FlashTranslator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashTranslator-Prefix.pch"; sourceTree = "<group>"; };
+		3D761CF51952243000704214 /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
+		3D761CF61952243000704214 /* DHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAppDelegate.m; sourceTree = "<group>"; };
+		3D761CF91952243000704214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D761CFB1952243000704214 /* DHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
+		3D761CFC1952243000704214 /* DHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
+		3D761CFE1952243000704214 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D761D041952243100704214 /* FlashTranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashTranslatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D761D051952243100704214 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D761D0D1952243100704214 /* FlashTranslatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashTranslatorTests-Info.plist"; sourceTree = "<group>"; };
+		3D761D0F1952243100704214 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D761D111952243100704214 /* FlashTranslatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashTranslatorTests.m; sourceTree = "<group>"; };
+		3DA5F4F91953368D002547FC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3DA5F4FD19551A94002547FC /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View.xib; path = FlashTranslator/View.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D761CE01952243000704214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA5F4FA1953368D002547FC /* AVFoundation.framework in Frameworks */,
+				3D761CE91952243000704214 /* CoreGraphics.framework in Frameworks */,
+				3D761CEB1952243000704214 /* UIKit.framework in Frameworks */,
+				3D761CE71952243000704214 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D761D011952243100704214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D761D061952243100704214 /* XCTest.framework in Frameworks */,
+				3D761D081952243100704214 /* UIKit.framework in Frameworks */,
+				3D761D071952243100704214 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D761CDA1952243000704214 = {
+			isa = PBXGroup;
+			children = (
+				3DA5F4FD19551A94002547FC /* View.xib */,
+				3D761CEC1952243000704214 /* FlashTranslator */,
+				3D761D0B1952243100704214 /* FlashTranslatorTests */,
+				3D761CE51952243000704214 /* Frameworks */,
+				3D761CE41952243000704214 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D761CE41952243000704214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D761CE31952243000704214 /* FlashTranslator.app */,
+				3D761D041952243100704214 /* FlashTranslatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D761CE51952243000704214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DA5F4F91953368D002547FC /* AVFoundation.framework */,
+				3D761CE61952243000704214 /* Foundation.framework */,
+				3D761CE81952243000704214 /* CoreGraphics.framework */,
+				3D761CEA1952243000704214 /* UIKit.framework */,
+				3D761D051952243100704214 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D761CEC1952243000704214 /* FlashTranslator */ = {
+			isa = PBXGroup;
+			children = (
+				3D761CF51952243000704214 /* DHAppDelegate.h */,
+				3D761CF61952243000704214 /* DHAppDelegate.m */,
+				3D761CF81952243000704214 /* Main.storyboard */,
+				3D761CFB1952243000704214 /* DHViewController.h */,
+				3D761CFC1952243000704214 /* DHViewController.m */,
+				3D761CFE1952243000704214 /* Images.xcassets */,
+				3D761CED1952243000704214 /* Supporting Files */,
+			);
+			path = FlashTranslator;
+			sourceTree = "<group>";
+		};
+		3D761CED1952243000704214 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D761CEE1952243000704214 /* FlashTranslator-Info.plist */,
+				3D761CEF1952243000704214 /* InfoPlist.strings */,
+				3D761CF21952243000704214 /* main.m */,
+				3D761CF41952243000704214 /* FlashTranslator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D761D0B1952243100704214 /* FlashTranslatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D761D111952243100704214 /* FlashTranslatorTests.m */,
+				3D761D0C1952243100704214 /* Supporting Files */,
+			);
+			path = FlashTranslatorTests;
+			sourceTree = "<group>";
+		};
+		3D761D0C1952243100704214 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D761D0D1952243100704214 /* FlashTranslatorTests-Info.plist */,
+				3D761D0E1952243100704214 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D761CE21952243000704214 /* FlashTranslator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D761D151952243100704214 /* Build configuration list for PBXNativeTarget "FlashTranslator" */;
+			buildPhases = (
+				3D761CDF1952243000704214 /* Sources */,
+				3D761CE01952243000704214 /* Frameworks */,
+				3D761CE11952243000704214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashTranslator;
+			productName = FlashTranslator;
+			productReference = 3D761CE31952243000704214 /* FlashTranslator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D761D031952243100704214 /* FlashTranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D761D181952243100704214 /* Build configuration list for PBXNativeTarget "FlashTranslatorTests" */;
+			buildPhases = (
+				3D761D001952243100704214 /* Sources */,
+				3D761D011952243100704214 /* Frameworks */,
+				3D761D021952243100704214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D761D0A1952243100704214 /* PBXTargetDependency */,
+			);
+			name = FlashTranslatorTests;
+			productName = FlashTranslatorTests;
+			productReference = 3D761D041952243100704214 /* FlashTranslatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D761CDB1952243000704214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AhmedHamdy;
+				TargetAttributes = {
+					3D761D031952243100704214 = {
+						TestTargetID = 3D761CE21952243000704214;
+					};
+				};
+			};
+			buildConfigurationList = 3D761CDE1952243000704214 /* Build configuration list for PBXProject "FlashTranslator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D761CDA1952243000704214;
+			productRefGroup = 3D761CE41952243000704214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D761CE21952243000704214 /* FlashTranslator */,
+				3D761D031952243100704214 /* FlashTranslatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D761CE11952243000704214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA5F4FE19551A94002547FC /* View.xib in Resources */,
+				3D761CFF1952243000704214 /* Images.xcassets in Resources */,
+				3D761CF11952243000704214 /* InfoPlist.strings in Resources */,
+				3D761CFA1952243000704214 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D761D021952243100704214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D761D101952243100704214 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D761CDF1952243000704214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D761CF71952243000704214 /* DHAppDelegate.m in Sources */,
+				3D761CFD1952243000704214 /* DHViewController.m in Sources */,
+				3D761CF31952243000704214 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D761D001952243100704214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D761D121952243100704214 /* FlashTranslatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D761D0A1952243100704214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D761CE21952243000704214 /* FlashTranslator */;
+			targetProxy = 3D761D091952243100704214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D761CEF1952243000704214 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D761CF01952243000704214 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D761CF81952243000704214 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D761CF91952243000704214 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D761D0E1952243100704214 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D761D0F1952243100704214 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D761D131952243100704214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D761D141952243100704214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D761D161952243100704214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashTranslator/FlashTranslator-Prefix.pch";
+				INFOPLIST_FILE = "FlashTranslator/FlashTranslator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D761D171952243100704214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashTranslator/FlashTranslator-Prefix.pch";
+				INFOPLIST_FILE = "FlashTranslator/FlashTranslator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D761D191952243100704214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlashTranslator.app/FlashTranslator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashTranslator/FlashTranslator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlashTranslatorTests/FlashTranslatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D761D1A1952243100704214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlashTranslator.app/FlashTranslator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashTranslator/FlashTranslator-Prefix.pch";
+				INFOPLIST_FILE = "FlashTranslatorTests/FlashTranslatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D761CDE1952243000704214 /* Build configuration list for PBXProject "FlashTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D761D131952243100704214 /* Debug */,
+				3D761D141952243100704214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D761D151952243100704214 /* Build configuration list for PBXNativeTarget "FlashTranslator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D761D161952243100704214 /* Debug */,
+				3D761D171952243100704214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D761D181952243100704214 /* Build configuration list for PBXNativeTarget "FlashTranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D761D191952243100704214 /* Debug */,
+				3D761D1A1952243100704214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D761CDB1952243000704214 /* Project object */;
+}
